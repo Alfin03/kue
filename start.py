@@ -46,7 +46,7 @@ if uploaded_file:
 
 
 import numpy as np
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import tensorflow as tf
 from sklearn.preprocessing import MinMaxScaler
 
@@ -165,19 +165,19 @@ if x==1:
             , "SIRAM COKLAT", "APANG PARANGGI"]]
 
 
-    import matplotlib.pyplot as plt
-    fig_size = (9, 3)  
-    for a, variable in enumerate(variables):
-        plt.figure(figsize=fig_size)  
-        plt.plot(dates,val_y[:, a], label='Actual')
-        plt.plot(forecast_dates,np.array(forcasts)[:, a], label='Predicted')
-        plt.title(variable)
+    #import matplotlib.pyplot as plt
+    #fig_size = (9, 3)  
+    #for a, variable in enumerate(variables):
+        #plt.figure(figsize=fig_size)  
+        #plt.plot(dates,val_y[:, a], label='Actual')
+        #plt.plot(forecast_dates,np.array(forcasts)[:, a], label='Predicted')
+        #plt.title(variable)
  
-        plt.ylim(0, 1)
-        plt.xlabel("Time steps")
-        plt.ylabel(variable+" values")
-        plt.legend()
-        plt.show()
+        #plt.ylim(0, 1)
+        #plt.xlabel("Time steps")
+        #plt.ylabel(variable+" values")
+        #plt.legend()
+        #plt.show()
 
     # streamlit_app.py
 
