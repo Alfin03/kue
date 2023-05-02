@@ -1,2 +1,2 @@
-#openpyxl-dev
-#tensorflow-dev
+openpyxl-dev
+tensorflow-dev
