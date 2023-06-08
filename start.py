@@ -153,7 +153,7 @@ if x==1:
     values_df.columns = forecast_df.columns[:12]
 
     values_df.index=forecast_dates
-    st.title("Ini adalah hasil peramalan")
+    st.title("Berikut ini adalah hasil peramalan")
     if y==10:
         values_df[["KUE SUS", "BIKANGDOANG", "DONUT COKLAT", "PUDDING", "RESOLES", "ROTI KEJU", "ROTI AYAM", "BLUDER"
             , "SIRAM COKLAT", "APANG PARANGGI"]].iloc[:10]
